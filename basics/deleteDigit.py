@@ -14,3 +14,4 @@ def deleteDigit(n):
     for i in list(combinations(N,len(N)-1)):
         a.append(int("".join(i)))
     return max(a)
+        
